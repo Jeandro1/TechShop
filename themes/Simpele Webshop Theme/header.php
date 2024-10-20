@@ -5,7 +5,7 @@
         <?php wp_head(); ?>
     </head>
     <body>
-        <header>
+        <header class="headernav">
             <a href="<?php echo site_url(); ?>" class="siteicon">
                 <img class="icon" src="<?php echo get_theme_file_uri('images/icon.png'); ?>">
                 <h1>Tech Shop</h1>

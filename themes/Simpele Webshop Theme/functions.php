@@ -3,7 +3,6 @@
 function simepelewebshop_files(){
     wp_enqueue_script('simepelewebshop_main_js', get_theme_file_uri('build/index.js'), array('jquery'), '1.0', true);
     wp_enqueue_style('simepelewebshop_main_styles', get_theme_file_uri('build/stylesheetMain.css'));
-    wp_enqueue_style('simepelewebshop_extra_styles', get_theme_file_uri('build/stylesheetExtra.css'));
 }
 
 add_action('wp_enqueue_scripts', 'simepelewebshop_files');

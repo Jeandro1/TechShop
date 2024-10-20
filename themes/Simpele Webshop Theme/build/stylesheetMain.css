@@ -3,9 +3,10 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
-header {
+.headernav {
   background-color: #202020;
   width: 100%;
   position: relative;
@@ -104,12 +105,4 @@ main {
 
 .opening {
   position: relative;
-}
-
-/* Woocommerce */
-
-.price{
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  color: black;
 }
