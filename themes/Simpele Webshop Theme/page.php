@@ -1,5 +1,12 @@
-<?php
-get_header();
+<?php get_header(); ?>
 
-get_footer();
+<?php
+
+while(have_posts()){
+    the_post();
+    the_content();
+}; 
+
 ?>
+
+<?php get_footer(); ?>
